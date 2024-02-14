@@ -26,4 +26,9 @@ void quick_sort_helper(int *array, int low, int high, size_t size);
 void quick_sort(int *array, size_t size);
 /* sort algo*/
 void shell_sort(int *array, size_t size);
+/* Cocktail shaker sort */
+void cocktail_sort_list(listint_t **list);
+void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2);
+void cocktail_sort_list(listint_t **list);
+
 #endif /* SORT_H */
