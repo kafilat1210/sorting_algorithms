@@ -47,4 +47,8 @@ void bitonic_sort(int *array, size_t size);
 
 
 void heap_sort(int *array, size_t size);
+void quick_sort_hoare(int *array, size_t size);
+void quick_sort_hoare_rec(int *array, size_t size, int low, int high);
+int hoare_partition(int *array, size_t size, int low, int high);
+
 #endif /* SORT_H */
